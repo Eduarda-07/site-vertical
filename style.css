@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 a{
     text-decoration: none;
 }
@@ -13,12 +15,15 @@ ul,ol,li{
 }
 html, body{
     scroll-behavior: smooth;
+   
 }
 
 header{
-    background-color: #333;
+    background-color: black;
     position: fixed;
     width: 100vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 header nav ul{
@@ -31,6 +36,9 @@ header nav a{
     color: white;
     padding: 8px;
     transition: background-color 1s;
+    font-family: "Inter Tight", sans-serif; 
+    font-size: 5vh;
+
 }
 
 header nav a:hover{
@@ -43,22 +51,194 @@ header nav a:hover{
     height: 100vh;
 }
 
-#vermelho{
-    background-color: #ff6b6b;
+#sullivan{
+    background-color: #C4F4F6;
+    display: flex;
+}
+.imagem{
+    width: 40%;
+}
+.texto{
+    width: 60%;
+    
+}
+.sullivang{
+    margin-top: 20vh;
+}
+.sullivanp{
+     margin-left: 14vw; 
+     margin-top: 14vh;
+}
+.texto h3{
+    color: black;
+    padding-top: 8vh;
+    font-size: 3vh;
+    text-align: center;
+    width: 80%;
+    margin-left: 8vw;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+}
+.texto
+ h2{
+    color: black;
+    margin-top: 20vh;
+    font-size: 5vh;
+    text-align: center;
+    width: 90%;
+    margin-left: 6vw;
+    font-family: "Inter Tight", sans-serif;
 }
 
-#verde{
-    background-color: #1dd1a1;
+#mike{
+    background-color: #CCFCCD;
+    display: flex;
 }
-
-#azul{
-    background-color: #54a0ff;
+.texto2{
+    width: 60%;
 }
-
-#amarelo{
-    background-color: #feca57;
+.imagem2{
+    width: 40%;
 }
+.mikep{
+    margin-top: 8vh;
+    margin-left: 20vw;
+}
+.mikeg{ 
+    margin-left: 4vw;
+     margin-top: 25vh;
+}
+.texto2 h3{
+    color: black;
+    margin-top: 5vh;
+    font-size: 3vh;
+    text-align: center;
+    width: 80%;
+    margin-left: 4vw;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+}
+.texto2 h2{
+    color: black;
+    margin-top: 15vh;
+    font-size: 5vh;
+    text-align: center;
+    width: 90%;
+    font-family: "Inter Tight", sans-serif;
+} 
 
-#roxo{
-    background-color: purple;
+#boo{
+    background-color: #D68CB7;
+    display: flex;
+}
+.texto3{
+    width: 60%;
+}
+.imagem3{
+    width: 40%;
+}
+.boop{
+    margin-top: 9vh;
+    margin-left: 20vw;
+    height: 30vh;
+}
+.boog{ 
+    margin-left: 4vw;
+    margin-top: 13vh;
+    height: 80vh;
+}
+.texto3 h3{
+    color: black;
+    margin-top: 5vh;
+    font-size: 3vh;
+    text-align: center;
+    width: 80%;
+    margin-left: 4vw;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+}
+.texto3 h2{
+    color: black;
+    margin-top: 15vh;
+    font-size: 5vh;
+    text-align: center;
+    width: 90%;
+    font-family: "Inter Tight", sans-serif;
+} 
+
+#terri{
+    background-color: #FACD6A;
+    display: flex;
+}
+.texto4{
+    width: 60%;
+}
+.imagem4{
+    width: 40%;
+}
+.terrip{
+    margin-top: 8vh;
+    margin-left: 20vw;
+    height: 40vh;
+}
+.terrig{ 
+    margin-left: 4vw;
+    margin-top: 20vh;
+    height: 75vh;
+}
+.texto4 h3{
+    color: black;
+    margin-top: 5vh;
+    font-size: 3vh;
+    text-align: center;
+    width: 80%;
+    margin-left: 4vw;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+}
+.texto4 h2{
+    color: black;
+    margin-top: 15vh;
+    font-size: 5vh;
+    text-align: center;
+    width: 90%;
+    font-family: "Inter Tight", sans-serif;
+} 
+
+#randall{
+    background-color: #D09CE3;
+    display: flex;
+}
+.imagem5{
+    width: 40%;
+}
+.texto5{
+    width: 60%;
+    
+}
+.randallg{
+    margin-top: 12vh;
+}
+.randallp{
+     margin-left: 23vw; 
+     margin-top: 6.5vh;
+}
+.texto5 h3{
+    color: black;
+    padding-top: 8vh;
+    font-size: 3vh;
+    text-align: center;
+    width: 80%;
+    margin-left: 8vw;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+}
+.texto5 h2{
+    color: black;
+    margin-top: 20vh;
+    font-size: 5vh;
+    text-align: center;
+    width: 90%;
+    margin-left: 6vw;
+    font-family: "Inter Tight", sans-serif;
 }
